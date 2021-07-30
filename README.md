@@ -1,27 +1,28 @@
-# SysserveFeAssignment
+# Sysserve Solutions Front-end Engineer Assignment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
+Thanks for applying for the Front-end Engineer position at Sysserve Solutions!
 
-## Development server
+You can find the instructions [here](INSTRUCTIONS.md)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## The sample project
 
-## Code scaffolding
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+In the project directory, you can run:
 
-## Build
+### `npm start`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Running unit tests
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### `npm test`
 
-## Running end-to-end tests
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Documentation
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+> here you can document your decisions. ✍️
