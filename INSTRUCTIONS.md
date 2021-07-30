@@ -2,7 +2,7 @@
 
 Thanks for applying for the Front-end Engineer position at Sysserve!
 
-This coding challenge will serve as the second step of technical evaluation in the hiring process, the goal is to show case how you work and if it is decided to proceed with the process, will lead to the last stage point of our technical interview.
+This coding challenge will serve as the second step of technical evaluation in the hiring process, the goal is to show case how you work and if it is decided to proceed with the process, will lead to the last stage of our technical interview.
 
 There are two parts to the challenge, the first is developing the visual components of a supplied design. The second part is about how you implement, test and explain business logic.
 
@@ -24,9 +24,7 @@ Styling can be done via CSS, or a CSS-in-JS framework of your choice.
 
 Please note for this assignment you are not required to build any server side logic, you can build all logic in the client-side.
 
-### The Guest and Room Selector component
-
-Please see the following screenshots for the designs to build. You can focus on the Guest and Room Selector, **building the home page is not required**.
+Please see the following screenshots for the designs to build. **building the bottom tab is not required**.
 
 | Screen 1                             | Screen 2                             | Screen 3                             | Screen 4       
 |--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------
@@ -35,39 +33,25 @@ Please see the following screenshots for the designs to build. You can focus on 
 ### Business requirements
 
 #### Input and output
-The component should receive its initial state as a string, allow the user to update the state via manipulating the UI, and emit its output as a serialized string.
-You should be able to pass the Guests and Rooms configuration in via the URL in this encoded manner. The URL should be updated with this serialized string when the component state is "comitted" (via the `Search` button) to allow for sharing.
-
-The rules for the output format are the following:
-- Rooms are separated by pipe `|`
-- Adults and children are separated by colon `:`
-- Children ages are separated by comma `,`
-
-##### Examples
-* "1:4,6|3" → Two rooms, one with one adult and two children ages four and six and the other with three adults and no children
-* "3" → One room with three adults and no children
-* "2:4" → One room with two adults and one child aged four
-* "1:0,13,16" → One room with one adult and three children (aged zero, thirteen and sixteen)
-
-Note: Keep in mind this is the serialized representation of a valid component state, you can keep a different intermediate data structure of your choice to manage internal state.
+The component should receive its initial state as a json object, allow the user to update the state via manipulating the UI(sending comments and uploading files).
+Ignore the audio recording functionality.
 
 #### Functional requirements
 These are the requirements the component need to abide to be deemed functional.
 
-* Up to eight rooms can be added
-* Each room has at least one adult and up to a maximum of five
-* Each room has zero or more children up to a maximum of three
-* Each child needs to have their age supplied, so we know what kind of bed or cot to provide and what to charge for the room
-* Each room has a maximum occupancy of five. This is, adults plus children per room
-* The Guest and Room selector should always yield a valid room occupancy, use button disablement to avoid invalid configurations
-* A user can either click `Search` to commit the output to the URL, or click the `x` on top to reset the chosen room selection, revert back to the original state and output this to the URL.
+* On load and whenever a new comment is posted by the logged in user specifically, the chat should automatically scroll to buttom, displaying the most recent 
+* Each chat on long press should be highlighted and display options as shown in screen 3
+* Each chat bubble should be able to display as text, image or media
+* On click of the attachment icon in the chat input field, show the floating menu that handles file upload as shown in screen 2
+* Once user types in the chat input field, switch the mic icon to a send icon as shown in screen 4
+* Enter key should also send the comment
 
 #### Non Functional requirements
 ##### Usability
 It should be evident to the user how to operate the component. We are here to help the user to understand what are their options and guide them.
 
 ##### Configurability
-The exact functional requirements of the component can change in the future, aim to make the component configurable for things such as default values and max room occupancy.
+The exact functional requirements of the component can change in the future, aim to make the component configurable.
 
 ##### Testability
 It is recommended to write automated tests (unit or integration) to verify and document the business logic.
