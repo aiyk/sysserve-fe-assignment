@@ -28,9 +28,9 @@ Please note for this assignment you are not required to build any server side lo
 
 Please see the following screenshots for the designs to build. You can focus on the Guest and Room Selector, **building the home page is not required**.
 
-| Screen 1                             | Screen 2                             | Screen 3                             | Screen 4
-|--------------------------------------|--------------------------------------|--------------------------------------|----------------------------
-| ![A](comment-1.jpg "Comment screen") | ![B](comment-2.jpg "Comment screen") | ![C](comment-3.jpg "Comment screen") | ![D](comment-4.jpg "Comment screen)
+| Screen 1                             | Screen 2                             | Screen 3                             | Screen 4       
+|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------
+| ![A](comment-1.jpg "Comment screen") | ![B](comment-2.jpg "Comment screen") | ![C](comment-3.jpg "Comment screen") | ![D](comment-4.jpg "Comment screen")
 
 ### Business requirements
 
