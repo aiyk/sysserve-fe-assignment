@@ -28,9 +28,9 @@ Please note for this assignment you are not required to build any server side lo
 
 Please see the following screenshots for the designs to build. You can focus on the Guest and Room Selector, **building the home page is not required**.
 
-| Screen 1                             | Screen 2                              | Screen 3                                                                    |
-|--------------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| ![A](comment-1.jpg "Comment screen") | ![B](comment-2.jpg "Comment screen") | ![C](comment-3.jpg "Comment screen") |
+| Screen 1                             | Screen 2                             | Screen 3                             | Screen 4
+|--------------------------------------|--------------------------------------|--------------------------------------|----------------------------
+| ![A](comment-1.jpg "Comment screen") | ![B](comment-2.jpg "Comment screen") | ![C](comment-3.jpg "Comment screen") | ![D](comment-4.jpg "Comment screen)
 
 ### Business requirements
 
@@ -44,7 +44,7 @@ The rules for the output format are the following:
 - Children ages are separated by comma `,`
 
 ##### Examples
-* "1:4,6" → Two rooms, one with one adult and two children ages four and six and the other with three adults and no children
+* "1:4,6|3" → Two rooms, one with one adult and two children ages four and six and the other with three adults and no children
 * "3" → One room with three adults and no children
 * "2:4" → One room with two adults and one child aged four
 * "1:0,13,16" → One room with one adult and three children (aged zero, thirteen and sixteen)
